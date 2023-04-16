@@ -5,6 +5,11 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Toktik {
+
+    /**
+     * @param args
+     * @throws FileNotFoundException
+     */
     // private static BinarySearchTree<Account> accounts;
 
     public static void main(String[] args) throws FileNotFoundException {

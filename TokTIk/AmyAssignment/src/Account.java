@@ -6,6 +6,13 @@ public class Account implements Comparable<Account> {
     private LinkedList<Post> posts;
 
     // list of posts
+    /**
+     * Account
+     * 
+     * @param n
+     * @param d
+     *
+     */
 
     public Account(String n, String d) {
         name = n;
@@ -15,6 +22,9 @@ public class Account implements Comparable<Account> {
     }
 
     /**
+     * getName
+     * returns the name of the user's account
+     * 
      * @return String
      */
     public String getName() {
@@ -22,11 +32,19 @@ public class Account implements Comparable<Account> {
     }
 
     /**
+     * getDescription
+     * returns the user's account description
+     * 
      * @return String
      */
     public String getDescription() {
         return description;
     }
+
+    /**
+     * getPosts
+     * prints the title, video name and number of likes for all user's posts
+     */
 
     public void getPosts() {
 
@@ -42,6 +60,9 @@ public class Account implements Comparable<Account> {
     }
 
     /**
+     * compareTo
+     * compares one account to another account
+     * 
      * @param another
      * @return int
      */
@@ -49,11 +70,25 @@ public class Account implements Comparable<Account> {
         return name.toLowerCase().compareTo(another.name.toLowerCase());
     }
 
+    /**
+     * toString
+     * 
+     * @return String
+     */
+
     public String toString() {
         return name + " " + description;
 
     }
 
+    /**
+     * addPost
+     * adds a new post to the user's account
+     * 
+     * @param title
+     * @param video
+     * @param likes
+     */
     public void addPost(String title, String video, int likes) {
 
         posts.add(new Post(title, video, likes));

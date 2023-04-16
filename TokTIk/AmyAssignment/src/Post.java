@@ -1,3 +1,4 @@
+
 public class Post {
     String title;
     String video;
@@ -9,6 +10,12 @@ public class Post {
         this.likes = likes;
     }
 
+    /**
+     * toString
+     * returns the title, video name and number of likes of a post
+     * 
+     * @return String
+     */
     public String toString() {
         return title + video + likes;
     }
