@@ -50,7 +50,7 @@ public class Account implements Comparable<Account> {
 
         for (int x = 0; x < posts.size(); x++) {
 
-            System.out.println("Title " + posts.get(x).title);
+            System.out.println("Title is " + posts.get(x).title);
             System.out.println("_______________________");
             System.out.println("Video: " + posts.get(x).video);
             System.out.println("_______________________");
