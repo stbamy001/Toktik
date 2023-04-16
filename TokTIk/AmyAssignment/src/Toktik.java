@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Toktik {
 
     /**
+     * 
      * @param args
      * @throws FileNotFoundException
      */

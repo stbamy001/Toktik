@@ -4,6 +4,12 @@ public class Post {
     String video;
     int likes;
 
+    /**
+     * Post
+     * 
+     * 
+     */
+
     public Post(String title, String video, int likes) {
         this.title = title;
         this.video = video;
